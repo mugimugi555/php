@@ -1,9 +1,9 @@
 <?php
 
-namespace App;
+namespace websocketServer\src;
 
-use Ratchet\MessageComponentInterface;
 use Ratchet\ConnectionInterface;
+use Ratchet\MessageComponentInterface;
 
 class Chat implements MessageComponentInterface {
 
